@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1DCE97B9-5CB9-4BAF-8F5F-A349A468FBC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasticJourney.Domain", "src\FantasticJourney.Domain\FantasticJourney.Domain.csproj", "{7D432D8A-4CDE-4F5C-AC76-E7E87ED31EF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F6516855-6101-48E1-B169-6C42D9279DC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasticJourney.Domain.UnitTests", "test\FantasticJourney.Domain.UnitTests\FantasticJourney.Domain.UnitTests.csproj", "{43A241C3-8E6E-4E87-B085-8656864A55D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FantasticJourney.IntegrationTests", "test\FantasticJourney.IntegrationTests\FantasticJourney.IntegrationTests.csproj", "{DFD309E1-A03C-4B3B-A510-BBE286664EE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D432D8A-4CDE-4F5C-AC76-E7E87ED31EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D432D8A-4CDE-4F5C-AC76-E7E87ED31EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D432D8A-4CDE-4F5C-AC76-E7E87ED31EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D432D8A-4CDE-4F5C-AC76-E7E87ED31EF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43A241C3-8E6E-4E87-B085-8656864A55D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43A241C3-8E6E-4E87-B085-8656864A55D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43A241C3-8E6E-4E87-B085-8656864A55D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43A241C3-8E6E-4E87-B085-8656864A55D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD309E1-A03C-4B3B-A510-BBE286664EE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD309E1-A03C-4B3B-A510-BBE286664EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD309E1-A03C-4B3B-A510-BBE286664EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD309E1-A03C-4B3B-A510-BBE286664EE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D432D8A-4CDE-4F5C-AC76-E7E87ED31EF7} = {1DCE97B9-5CB9-4BAF-8F5F-A349A468FBC0}
+		{43A241C3-8E6E-4E87-B085-8656864A55D9} = {F6516855-6101-48E1-B169-6C42D9279DC2}
+		{DFD309E1-A03C-4B3B-A510-BBE286664EE0} = {F6516855-6101-48E1-B169-6C42D9279DC2}
+	EndGlobalSection
+EndGlobal
