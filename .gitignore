@@ -1,1 +1,6 @@
+# IDE settings
 .idea
+
+# build assets
+bin
+obj
